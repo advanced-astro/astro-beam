@@ -1,0 +1,18 @@
+---
+import tokenMatcher from './matcher';
+
+interface Props {
+  scriptUrl?: string,
+  token: string,
+  partytown?: boolean
+}
+const DEFAULT_SCRIPT_URL = 'https://beamanalytics.b-cdn.net/beam.min.js';
+const { token, scriptUrl = DEFAULT_SCRIPT_URL, partytown = false } = Astro.props as Props;
+
+tokenMatcher(token) ? null : console.error('Beam Analytics: Invalid token');
+
+const type = partytown ? "text/partytown" : null;
+const async = partytown ? null : "";
+---
+
+<script src={scriptUrl} data-token={token} {type} {async}></script>

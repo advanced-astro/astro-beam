@@ -1,0 +1,46 @@
+{
+  "name": "astro-beam",
+  "version": "1.0.0",
+  "description": "BeamAnalytics integration for Astro",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "astro",
+    "astro-component",
+    "astro-integration",
+    "analytics",
+    "beam",
+    "tracking",
+    "withastro"
+  ],
+  "author": {
+    "name": "Marc Redwerkz",
+    "url": "https://github.com/rdwz"
+  },
+  "homepage": "https://github.com/advanced-astro/astro-beam",
+  "funding": [
+    {
+      "type": "PayPal",
+      "url": "https://paypal.me/redwerkz"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/advanced-astro/astro-beam/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advanced-astro/astro-beam.git"
+  },
+  "peerDependencies": {
+    "astro": "^2.0.0 || ^3.0.0"
+  },
+  "workspaces": [
+    "demo"
+  ]
+}

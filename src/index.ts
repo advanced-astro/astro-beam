@@ -1,0 +1,1 @@
+export { default as BeamAnalytics } from "./BeamAnalytics.astro";
