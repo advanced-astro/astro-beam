@@ -12,7 +12,7 @@ const { token, scriptUrl = DEFAULT_SCRIPT_URL, partytown = false } = Astro.props
 tokenMatcher(token) ? null : console.error('Beam Analytics: Invalid token');
 
 const type = partytown ? "text/partytown" : null;
-const load = partytown ? null : "async";
+const async = partytown ? null : "async";
 ---
 
-<script src={scriptUrl} data-token={token} {type} {load}></script>
+<script src={scriptUrl} data-token={token} {type} {async}></script>
