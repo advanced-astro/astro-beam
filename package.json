@@ -1,6 +1,6 @@
 {
   "name": "astro-beam",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "BeamAnalytics integration for Astro",
   "type": "module",
   "exports": {
@@ -39,8 +39,5 @@
   },
   "peerDependencies": {
     "astro": "^2.0.0 || ^3.0.0"
-  },
-  "workspaces": [
-    "demo"
-  ]
+  }
 }
