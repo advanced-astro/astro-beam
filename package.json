@@ -1,6 +1,6 @@
 {
   "name": "astro-beam",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "BeamAnalytics integration for Astro",
   "type": "module",
   "exports": {
@@ -16,6 +16,7 @@
     "analytics",
     "beam",
     "tracking",
+    "webanalytics",
     "withastro"
   ],
   "author": {
@@ -38,6 +39,6 @@
     "url": "git+https://github.com/advanced-astro/astro-beam.git"
   },
   "peerDependencies": {
-    "astro": "^2.0.0 || ^3.0.0"
+    "astro": "^2.0.0 || ^3.0.0 || ^4.0.0"
   }
 }

@@ -5,13 +5,13 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro check &&astro build",
     "preview": "astro preview",
     "astro": "astro",
     "preinstall": "npx only-allow bun"
   },
   "dependencies": {
-    "astro": "^3.0.0",
+    "astro": "^4.0.0",
     "astro-beam": "../"
   }
 }
