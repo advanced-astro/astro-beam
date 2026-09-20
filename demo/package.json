@@ -11,7 +11,7 @@
     "preinstall": "npx only-allow bun"
   },
   "dependencies": {
-    "astro": "^4.0.0",
+    "astro": "^7.0.0",
     "astro-beam": "../"
   }
 }
